@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex </title>
+    
+    <style>
+        body{
+         background-image: url('pokedex.png');
+         background-repeat: no-repeat;
+         background-position-x: center;
+         background-size:1500px 2000px; 
+        }
+        h1{
+            color: rgb(117, 21, 21);
+            position: absolute;
+            top: 120px;
+            left: 1300px;
+
+        }
+
+        h2 {
+            color: rgb(71, 71, 71);
+            position: absolute;
+            top: 500px;
+            left: 830px;
+        }
+        
+            
+        
+       
+       img {
+            position:absolute;
+            padding-top: 750px;
+            left: 610px;
+
+        }
+
+        button {
+            position: absolute;
+            left: 820px;
+            top: 1135px;
+        }
+        footer{
+            position: absolute;
+            top: 2000px;
+            left: 850px;
+        }
+    </style>
+</head>
+<body >
+
+    <h1>Pokedex <br>
+    By Zazuck</h1>
+
+    <h2> Pokedex</h2>
+    
+    
+    <img src="./ash.png" alt="Pokemon" id="pokeImg" width="250px" > <br>
+    <input type="text" style= "margin: 600px 820px;" placeholder="Pikachu" id="pokeName" name="pokeName">
+    <button onclick="fetchPokemon()">Cambiar Pokemon</button>
+</body>
+<footer>
+    <script src="./Pokedex.js"></script>
+    © 2022 Zazuck, Corp.
+Terms
+</footer>
+</html>
